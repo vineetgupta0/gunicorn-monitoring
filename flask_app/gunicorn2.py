@@ -7,7 +7,7 @@ statsd_prefix = os.getenv("APP_NAME")
 pidfile = "/tmp/gunicorn.pid"
 
 # workers
-workers = 2
+workers = 5
 worker_class = "sync"  # pre-fork
 worker_connections = 10  # The maximum number of simultaneous clients
 
