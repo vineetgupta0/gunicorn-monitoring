@@ -1,0 +1,3 @@
+[submodule "flask_app/gunicorn"]
+	path = flask_app/gunicorn
+	url = https://github.com/vineetgupta0/gunicorn.git
